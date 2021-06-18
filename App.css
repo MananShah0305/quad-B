@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+  font: 18px 'Oswald', sans-serif;
+}
+
+.switch {
+  position: absolute;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  top:40px;
+  right:20px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(246, 246, 246);
+  transition: 400ms;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: rgb(5, 219, 209);
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color:  rgb(34, 34, 34);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px  rgb(108, 117, 125);
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+.slider.round{
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.app-dark{
+  background-color: rgb(22, 26, 31);
+}

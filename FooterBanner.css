@@ -1,0 +1,8 @@
+.footerBanner{
+    padding:20px 0px;
+    border-bottom: 2px solid rgb(190, 190, 190);
+}
+.footerBanner img{
+    object-fit: contain;
+    width:100%;
+}

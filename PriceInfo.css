@@ -1,0 +1,15 @@
+.priceInfo{
+    padding:0px 20px;
+}
+.headings{
+    padding:16px 32px;
+    display:flex;
+    justify-content: space-between;
+    font-weight:bold;
+}
+.Head{
+    color:grey;
+}
+.Head-dark{
+    font-size:28px;
+}

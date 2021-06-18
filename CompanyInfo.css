@@ -1,0 +1,36 @@
+.companyInfo{
+    padding:0px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity:0.6;
+}
+.copyright{
+    flex:0.22;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.copyright p{
+    font-size:14px;
+}
+.span{
+    font-size:14px;
+    color:rgb(23, 162, 184);
+    font-weight: bold;
+}
+.support{
+    font-size: 14px;
+}
+
+.copyright-dark{
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.support-dark{
+    color:rgba(255, 255, 255, 0.8);
+}
+.span-dark{
+    color: rgb(104, 232, 255);
+}
+

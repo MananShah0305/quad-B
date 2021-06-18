@@ -1,0 +1,57 @@
+.price{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 30px;
+}
+.percentVsTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.percentage{
+    color:rgb(6, 209, 199);
+    margin:0px;
+    padding:0px;
+    font-weight:bold;
+    font-size: 40px;
+    -webkit-font-smoothing: antialiased;
+}
+.time{
+    margin:0px;
+    padding:0px;
+    color: #6c757d;
+    opacity: 0.64;
+}
+.priceToTrade{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.tradeTitle{
+    font-size: 28px;
+    color: rgba(12, 15, 72,0.52);
+    margin:0px 0px;
+}
+.priceVsINR{
+    color: rgb(12, 15, 72);
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+.commission{
+    color: rgba(12, 15, 72,0.4);
+    font-size: 18px;
+    margin:0px;
+}
+.tradeTitle-dark{
+    color: rgba(255, 255, 255, 0.52);
+}
+.priceVsINR-dark{
+    color: rgb(255, 255, 255);
+}
+.commission-dark{
+    color: rgba(255, 255, 255, 0.4);
+}

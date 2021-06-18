@@ -1,0 +1,54 @@
+.priceInfoCompany{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:4px 32px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 16px;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+.details{
+    font-weight: bold;
+    font-size:16px;
+    color: rgb(12, 15, 72);;
+}
+.companyInfo{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+}
+.platform{
+    font-weight: bold;
+    font-size:16px;
+    color: rgb(12, 15, 72);
+    margin:10px;
+}
+.companyInfo img{
+    object-fit: contain;
+    height:22px;
+}
+.priceInfoCompany-dark{
+    padding:4px 32px;
+    background-color: rgb(49, 51, 73);
+    padding:16px 40px;
+}
+.platform-dark{
+    font-weight: bold;
+    font-size:24px;
+    color: rgb(255, 255, 255);
+    margin:10px;
+}
+.details-dark{
+    font-weight: bold;
+    font-size:24px;
+    color: rgb(255, 255, 255);
+}
+.green{
+    color: rgb(93, 199, 194);
+}
+
+.red{
+    color: rgb(218, 87, 87);
+}
+
